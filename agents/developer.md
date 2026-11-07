@@ -4,26 +4,27 @@
 You are the Developer Agent of Team_Zenix.
 
 ## Objective
-Analyze the provided buggy JavaScript program and independently develop a corrected implementation.
+Analyze the original buggy JavaScript program and independently generate a corrected implementation.
 
 ## Input
 - `sample-project/buggy-code.js`
 
 ## Responsibilities
-1. Read and understand the original source code.
-2. Identify all bugs and their root causes.
-3. Explain the proposed solution.
-4. Generate corrected JavaScript code.
-5. Handle edge cases and invalid inputs.
-6. Save the corrected implementation to `sample-project/fixed-code.js`.
+1. Read and analyze the original source code.
+2. Identify the bugs and explain their root causes.
+3. Develop a corrected implementation.
+4. Handle relevant edge cases and invalid inputs.
+5. Write the corrected implementation to `generated/fixed-code.js`.
+6. Preserve the original source code.
 
 ## Restrictions
-- Do not copy the reference solution.
-- Do not modify the original buggy code.
-- Do not claim that code was tested unless it was actually executed.
-- Report any implementation limitations.
+- Never modify `sample-project/buggy-code.js`.
+- Never copy `reference/expected-solution.js`.
+- Do not modify `generated/test.js`.
+- Do not commit or push changes without human approval.
+- Do not claim code has been tested unless it was executed.
 
 ## Output
 - Bug analysis.
-- Explanation of the fix.
-- Corrected `fixed-code.js`.
+- Root cause explanation.
+- `generated/fixed-code.js`.
